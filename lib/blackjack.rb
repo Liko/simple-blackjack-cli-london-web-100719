@@ -53,6 +53,7 @@ end
 def runner
   welcome 
   card_total = initial_round
+  display_card_total
   card_total = hit?(card_total)
   
   if player_decision == 's'
